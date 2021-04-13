@@ -1,0 +1,25 @@
+.about-animal {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, .1);
+    padding: 1rem;
+    margin-bottom: 3rem;
+    background-color: #d8ff61;
+    font-weight: 500;
+}
+
+.section-animals {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, .1);
+}
+
+.animal {
+    margin: 2rem;
+    text-align: center;
+}
+
+.animal-photo {
+    max-width: 16rem;
+    height: auto;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, .1);
+}
