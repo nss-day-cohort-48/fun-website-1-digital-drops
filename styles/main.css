@@ -1,0 +1,75 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #75ff75;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.navbar-title {
+    margin-right: 50%;
+}
+
+.navbar-link {
+    margin: 1rem;
+}
+
+.section-1 {
+    display: flex;
+}
+
+.left-side {
+    flex: 3;
+    margin: 1rem;
+}
+
+.fun-facts {
+    flex: 1;
+    margin: 1rem;
+    text-align: center;
+}
+
+.fact-list {
+    padding: 1rem;
+    list-style: none;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, .1);
+    background-color: #d8ff61;
+    font-weight: 500;
+}
+
+.fact {
+    margin: .5rem;
+}
+
+.zoo-image {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, .1);
+}
+
+.about-us {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, .1);
+    padding: 1rem;
+    margin-bottom: 3rem;
+    background-color: #d8ff61;
+    font-weight: 500;
+}
+
+.footer-contact {
+    background-color: #d8ff61;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
